@@ -1,0 +1,210 @@
+/* Base dark mode styles - black background and white text */
+body.dark-mode {
+     background-color: #000000;
+     color: #ffffff;
+ }
+ 
+ /* Make all containers and sections black with white text */
+ body.dark-mode .navbar,
+ body.dark-mode .login-container,
+ body.dark-mode .footer,
+ body.dark-mode .main-content,
+ body.dark-mode .container,
+ body.dark-mode .section-container,
+ body.dark-mode .form-container {
+     background-color: #000000;
+     color: #ffffff;
+ }
+ 
+ /* Login form headings and text */
+ body.dark-mode .login-form {
+     background-color: #000000;
+     border: 1px solid #333;
+     color: #ffffff;
+ }
+ 
+ body.dark-mode .login-form h2,
+ body.dark-mode .login-form h3,
+ body.dark-mode .login-form h4,
+ body.dark-mode .login-form p {
+     color: #ffffff;
+ }
+ 
+ /* Form elements */
+ body.dark-mode .form-group label {
+     color: #ffffff;
+ }
+ 
+ body.dark-mode .form-group input {
+     background-color: #1a1a1a;
+     border: 1px solid #333;
+     color: #ffffff;
+ }
+ 
+ /* Social login buttons */
+ body.dark-mode .social-login button {
+     background-color: #1a1a1a;
+     border: 1px solid #333;
+     color: #c01919;
+ }
+ 
+ body.dark-mode .social-login button:hover {
+     background-color: #242424;
+ }
+ 
+ /* Links */
+ body.dark-mode .forgot-password,
+ body.dark-mode .signup-link a {
+     color: #bb86fc;  /* Purple accent color for links */
+ }
+ 
+ body.dark-mode .signup-link {
+     color: #000000;
+ }
+ 
+ /* Divider */
+ body.dark-mode .divider {
+     border-color: #333;
+ }
+ 
+ body.dark-mode .divider span {
+     background-color: #000000;
+     color: #000000;
+ }
+ 
+ /* Logo */
+ body.dark-mode .logo {
+     color: #ffffff;
+ }
+ 
+ /* Headings */
+ body.dark-mode h1,
+ body.dark-mode h2,
+ body.dark-mode h3,
+ body.dark-mode h4,
+ body.dark-mode h5,
+ body.dark-mode h6 {
+     color: #000000;
+ }
+ 
+ /* Dark mode toggle button styling */
+ .mode-toggle {
+     background: none;
+     border: none;
+     padding: 8px 12px;
+     cursor: pointer;
+     border-radius: 50%;
+     transition: all 0.3s ease;
+     position: relative;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .mode-toggle i {
+     font-size: 1.2rem;
+     transition: all 0.3s ease;
+ }
+ 
+ /* Light mode toggle */
+ .mode-toggle {
+     background-color: #f0f0f0;
+     color: #2c3e50;
+ }
+ 
+ .mode-toggle:hover {
+     background-color: #e0e0e0;
+     transform: scale(1.1);
+ }
+ 
+ /* Dark mode toggle */
+ body.dark-mode .mode-toggle {
+     background-color: #2c3e50;
+     color: #ffd700;
+ }
+ 
+ body.dark-mode .mode-toggle:hover {
+     background-color: #34495e;
+     transform: scale(1.1);
+ }
+ 
+ /* Animation for icon switch */
+ .mode-toggle i {
+     transform-origin: center;
+ }
+ 
+ .mode-toggle:active i {
+     transform: rotate(360deg);
+ }
+ 
+ /* Optional: Add a subtle glow effect in dark mode */
+ body.dark-mode .mode-toggle {
+     box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+ }
+ 
+ body.dark-mode .mode-toggle:hover {
+     box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+ }
+ 
+ /* Position the toggle button */
+ .nav-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 2rem;
+ }
+ 
+ .auth-buttons {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+ }
+ 
+ /* Auth container dark mode */
+ body.dark-mode .auth-container {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(135deg, #000000 0%, #000000 100%);
+     padding: 2rem;
+ }
+ 
+ /* Auth box dark mode */
+ body.dark-mode .auth-box {
+     background: #000000;  /* Pure black background */
+     border-radius: 1rem;
+     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+     width: 100%;
+     max-width: 400px;
+     padding: 2rem;
+     border: 1px solid #333;
+     color: #ffffff;  /* White text */
+ }
+ 
+ /* Auth header dark mode */
+ body.dark-mode .auth-header {
+     text-align: center;
+     color: #ffffff;
+ }
+ 
+ /* Welcome back text in dark mode */
+ body.dark-mode .auth-header h2,
+ body.dark-mode .welcome-text,
+ body.dark-mode .auth-box h2 {
+     color: #ffffff !important;  /* Force white color */
+ }
+ 
+ /* Ensure all text in auth box is white */
+ body.dark-mode .auth-box {
+     background: #000000;
+     color: #ffffff;
+ }
+ 
+ /* Subtext under welcome back */
+ body.dark-mode .auth-header p,
+ body.dark-mode .auth-box p {
+     color: #ffffff;
+ } 
